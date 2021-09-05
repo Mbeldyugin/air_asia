@@ -24,7 +24,7 @@ body {
 
 .header {
   color: #fff;
-  margin-bottom: 130px;
+  margin-bottom: 80px;
 }
 
 .container {
@@ -135,4 +135,10 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.tours {
+  padding-top: 246px;
+}
+
+
 
