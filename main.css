@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #001821;
+  position: relative;
+}
+
+.background-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background-bottom {
+  position: absolute;
+  top: 1872px;
+}
+
+.header {
+  color: #fff;
+  margin-bottom: 130px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+  
+}
+
+.container__header {
+  height: 77px;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 165px;
+  font-size: 14px;
+}
+
+.menu__list {
+  margin-right: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 54px;
+  
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts {
+  position: absolute;
+  top: 27px;
+  right: 0;
+}
+
+.contacts__phone {
+  color: inherit;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.contacts__schedule {
+  text-align: right;
+  font-size: 13px;
+}
+
+.hero {
+  color: #fff;
+}
+
+.sections {
+  position: relative;
+  color: #fff;
+}
+
+.hero__title {
+  font-size: 72px;
+  width: 50%;
+  margin: 0 0 0 0;
+}
+
+.hero__desc {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.link-block {
+  padding-top: 33px;
+}
+
+.link-details {
+  text-decoration: none;
+  
+}
+
+.link-background {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  display: inline-block;
+}
+
+.link-text {
+  color: #fff;
+  text-transform: uppercase ;
+  font-size: 14px;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
