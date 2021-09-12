@@ -97,8 +97,20 @@ body {
   color: #fff;
 }
 
-.hero__title {
+h1 {
   font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  
+}
+
+.hero__title {
   width: 50%;
   margin: 0 0 0 0;
 }
@@ -138,6 +150,21 @@ img {
 
 .tours {
   padding-top: 246px;
+}
+
+.sub-tittle {
+  display: inline-block;
+}
+
+.sub-tittle:after {
+  content: "";
+  display: inline-block;
+  background: left center / contain no-repeat;
+  vertical-align: middle;
+  margin-left: 12px;
+  width: 21px;
+  height: 28px;
+  background-image: url('./img/flame.png');
 }
 
 
